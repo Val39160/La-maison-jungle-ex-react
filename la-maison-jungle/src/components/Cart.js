@@ -4,7 +4,7 @@ function Cart () {
   const LierrePrice = 10;
   const BouquetPrice = 15;
   const TotalPrice = MonsteraPrice + LierrePrice + BouquetPrice
-  return (<div>
+  return (<div className = "lmg-cart">
       <h2> Panier </h2>
       <ul>
       <li> Monstera : {MonsteraPrice} € </li>
